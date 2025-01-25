@@ -1,0 +1,47 @@
+{
+  "name": "nasa-fe",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "arwes": "^1.0.0-alpha.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set PUBLIC_URL=.&& react-scripts build",
+    "test": "react-scripts test --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "browserslist": "^4.22.2",
+    "loader-utils": "^2.0.4",
+    "minimatch": "^3.1.2",
+    "node-forge": "^1.3.1",
+    "node-notifier": "^8.0.2",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.31",
+    "semver": "^7.5.4",
+    "shell-quote": "^1.8.1"
+  }
+}

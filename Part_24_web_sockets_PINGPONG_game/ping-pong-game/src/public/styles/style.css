@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+#startScreen {
+    text-align: center;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
